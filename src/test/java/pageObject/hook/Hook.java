@@ -11,7 +11,6 @@ import java.util.concurrent.TimeUnit;
 public class Hook {
     public WebDriver driver;
     public pageObject.pages.HomePage HomePage;
-    //public Utility util;
 
     @BeforeTest
     public void setUp() {
